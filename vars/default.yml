@@ -1,0 +1,8 @@
+---
+profile_profile_path: '/etc/profile'
+profile_profiled_path: '/etc/profile.d'
+profile_bashrc_path: '/etc/bashrc'
+profile_environment_path: '/etc/environment'
+profile_owner: 'root'
+profile_group: 'root'
+profile_mode: '0644'

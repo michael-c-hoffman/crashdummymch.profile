@@ -1,0 +1,2 @@
+[all]
+localhost profile_profiled_templates='["test", "test1"]'

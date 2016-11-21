@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Michael C. Hoffman
+  description: Manage profile settings
+  license: GPLv3
+  min_ansible_version: 1.0
+  platforms:
+    - name: EL
+      version:
+        - all
+    - name: Suse
+      version:
+        - all
+    - name: Debian
+      version:
+        - all
+  galaxy_tags:
+    - system
+    - tuned
+dependencies:
+  - []

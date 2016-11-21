@@ -1,0 +1,3 @@
+---
+profile_package_names: ['aaa_base', 'filesystem']
+profile_bashrc_path: '/etc/bash.bashrc'

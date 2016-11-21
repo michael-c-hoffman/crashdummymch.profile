@@ -1,0 +1,8 @@
+---
+# defaults file for crashdummymch.profile
+profile_profiled_templates: []
+profile_bashrc_manage: False
+profile_profile_manage: False
+profile_environment_manage: False
+profile_privilage_escalation: True
+profile_privilage_user: 'root'
