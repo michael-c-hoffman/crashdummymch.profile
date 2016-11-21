@@ -54,7 +54,7 @@
     owner={{ profile_owner }} 
     group={{ profile_group }}
     mode=0644
-  when: {{ profile_profile_manage }}
+  when: "{{ profile_profile_manage }}"
 
 # Copy bashrc.j2 to {{ profile_bashrc_path }} if {{ profile_bashrc_manage }}
 - name: "Copy bashrc template to {{ profile_bashrc_path }}"
@@ -66,7 +66,7 @@
     owner={{ profile_owner }} 
     group={{ profile_group }}
     mode=0644
-  when: {{ profile_bashrc_manage }}
+  when: "{{ profile_bashrc_manage }}"
 
 # Copy environment.j2 to {{ profile_environment_path }} if {{ profile_environment_manage }}
 - name: "Copy environment template to {{ profile_environment_path }}"
@@ -78,4 +78,4 @@
     owner={{ profile_owner }} 
     group={{ profile_group }}
     mode=0644
-  when: {{ profile_environment_manage }}
+  when: "{{ profile_environment_manage }}"

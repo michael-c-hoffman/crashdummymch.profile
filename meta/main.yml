@@ -16,6 +16,6 @@ galaxy_info:
         - all
   galaxy_tags:
     - system
-    - tuned
-dependencies:
-  - []
+    - bash
+    - profile
+dependencies: []

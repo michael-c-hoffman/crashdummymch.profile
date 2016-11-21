@@ -1,2 +1,3 @@
 [all]
-localhost profile_profiled_templates='["test", "test1"]'
+#localhost profile_profiled_templates='[""]'
+localhost 
