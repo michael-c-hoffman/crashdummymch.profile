@@ -1,3 +1,3 @@
 [all]
-#localhost profile_profiled_templates='[""]'
-localhost 
+#localhost profile_profiled_templates='["mytest.sh"]'
+localhost
