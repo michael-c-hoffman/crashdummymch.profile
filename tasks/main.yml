@@ -49,7 +49,7 @@
   become: "{{ profile_privilage_escalation }}"
   become_user: "{{ profile_privilage_user }}"
   template: 
-    src=../templates/profile.j2 
+    src=../templates/profile.{{ ansible_os_family }}.j2 
     dest={{ profile_profile_path }} 
     owner={{ profile_owner }} 
     group={{ profile_group }}
@@ -61,7 +61,7 @@
   become: "{{ profile_privilage_escalation }}"
   become_user: "{{ profile_privilage_user }}"
   template: 
-    src=../templates/bashrc.j2 
+    src=../templates/bashrc.{{ ansible_os_family }}.j2 
     dest={{ profile_bashrc_path }} 
     owner={{ profile_owner }} 
     group={{ profile_group }}
@@ -73,7 +73,7 @@
   become: "{{ profile_privilage_escalation }}"
   become_user: "{{ profile_privilage_user }}"
   template: 
-    src=../templates/environment.j2 
+    src=../templates/environment.{{ ansible_os_family }}.j2 
     dest={{ profile_environment_path }} 
     owner={{ profile_owner }} 
     group={{ profile_group }}
